@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="326dc421-8702-49ec-afcd-3dd8c37f2113" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/org/mdao07/demos/kafka/ProducerWithCallbackDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/org/mdao07/demos/kafka/ProducerWithKeysDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kafka-basics/src/main/java/org/mdao07/demos/kafka/ProducerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/org/mdao07/demos/kafka/ProducerDemo.java" afterDir="false" />
     </list>
@@ -19,6 +20,49 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="kafka-beginner" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="kafka-beginner" type="f1a62948:ProjectNode" />
+                <item name="kafka-basics" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="kafka-beginner" type="f1a62948:ProjectNode" />
+                <item name="kafka-basics" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="kafka-beginner" type="f1a62948:ProjectNode" />
+                <item name="kafka-basics" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="runtimeClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="kafka-beginner" type="f1a62948:ProjectNode" />
+                <item name="kafka-basics" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="runtimeClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+                <item name="org.apache.kafka:kafka-clients:3.4.0" type="b3323d55:ExternalSystemViewDefaultContributor$DependencyExternalSystemNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -49,13 +93,44 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.org.mdao07.demos.kafka.ProducerDemo">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.mdao07.demos.kafka" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ProducerWithKeysDemo">
     <configuration name="ProducerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.conduktor.demos.kakfa.ProducerDemo" />
       <module name="kafka-beginner.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="io.conduktor.demos.kakfa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerWithCallbackDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.mdao07.demos.kafka.ProducerWithCallbackDemo" />
+      <module name="kafka-beginner.kafka-basics.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mdao07.demos.kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerWithKeysDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.mdao07.demos.kafka.ProducerWithKeysDemo" />
+      <module name="kafka-beginner.kafka-basics.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mdao07.demos.kafka.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,6 +153,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProducerWithKeysDemo" />
+        <item itemvalue="Application.ProducerWithCallbackDemo" />
         <item itemvalue="Application.org.mdao07.demos.kafka.ProducerDemo" />
         <item itemvalue="Application.ProducerDemo" />
       </list>
