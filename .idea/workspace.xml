@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="326dc421-8702-49ec-afcd-3dd8c37f2113" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/org/mdao07/demos/kafka/ConsumerCooperativeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/org/mdao07/demos/kafka/ConsumerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/org/mdao07/demos/kafka/ConsumerProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/org/mdao07/demos/kafka/ConsumerRebalanceListenerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/org/mdao07/demos/kafka/ConsumerWithShutdownDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/org/mdao07/demos/kafka/ProducerProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/org/mdao07/demos/kafka/advanced/RebalanceListenerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/org/mdao07/demos/kafka/advanced/RebalanceListenerImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-basics/src/main/java/org/mdao07/demos/kafka/ProducerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/org/mdao07/demos/kafka/ProducerDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-basics/src/main/java/org/mdao07/demos/kafka/ProducerWithCallbackDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/org/mdao07/demos/kafka/ProducerWithCallbackDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-basics/src/main/java/org/mdao07/demos/kafka/ProducerWithKeysDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/org/mdao07/demos/kafka/ProducerWithKeysDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +96,7 @@
       <recent name="org.mdao07.demos.kafka" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConsumerCooperativeDemo">
+  <component name="RunManager" selected="Application.RebalanceListenerDemo">
     <configuration name="ConsumerCooperativeDemo" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.mdao07.demos.kafka.ConsumerCooperativeDemo" />
       <module name="kafka-beginner.kafka-basics.main" />
@@ -143,19 +136,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.mdao07.demos.kafka.ProducerDemo" />
-      <module name="kafka-beginner.kafka-basics.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.mdao07.demos.kafka.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ProducerWithCallbackDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.mdao07.demos.kafka.ProducerWithCallbackDemo" />
       <module name="kafka-beginner.kafka-basics.main" />
@@ -169,13 +149,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RebalanceListenerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.mdao07.demos.kafka.advanced.RebalanceListenerDemo" />
+      <module name="kafka-beginner.kafka-basics.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mdao07.demos.kafka.advanced.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RebalanceListenerDemo" />
         <item itemvalue="Application.ConsumerCooperativeDemo" />
         <item itemvalue="Application.ProducerWithCallbackDemo" />
         <item itemvalue="Application.ConsumerWithShutdownDemo" />
         <item itemvalue="Application.ConsumerDemo" />
-        <item itemvalue="Application.ProducerDemo" />
       </list>
     </recent_temporary>
   </component>
