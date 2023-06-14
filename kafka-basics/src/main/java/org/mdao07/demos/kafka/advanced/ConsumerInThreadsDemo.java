@@ -2,7 +2,6 @@ package org.mdao07.demos.kafka.advanced;
 
 import org.apache.kafka.clients.CommonClientConfigs;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
-import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
 import org.apache.kafka.common.config.SaslConfigs;
@@ -12,7 +11,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.time.Duration;
-import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
 import java.util.Properties;
@@ -21,9 +19,10 @@ import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class ConsumerOnThreadsDemo {
+// source: https://www.conduktor.io/kafka/java-consumer-in-threads/
+public class ConsumerInThreadsDemo {
 
-    private static Logger log = LoggerFactory.getLogger(ConsumerOnThreadsDemo.class);
+    private static Logger log = LoggerFactory.getLogger(ConsumerInThreadsDemo.class);
 
     static class ConsumerWorker implements Runnable {
 
